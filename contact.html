@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing Top Bar</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a618b6f5f5.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row" id="contact-header">
+            <div class="col-sm-10">
+                <i class="fa-solid fa-phone"></i>&nbsp;+880-1795854446 &nbsp;&nbsp; <i class="fa-solid fa-envelope"></i>&nbsp;tsnraiyan@gmail.com
+            </div>
+            <div class="col-sm-2 d-none d-md-block">
+                <a href="https://www.facebook.com/profile.php?id=100093309561926" target="_blank">
+                    <i class="fa-brands fa-square-facebook" style="color: white;"></i>
+                </a>
+                <a href="https://twitter.com/RaiyanTasin1" target="_blank">
+                    <i class="fa-brands fa-twitter" style="color: white;"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/md-babur-raiyan-423a9b179/" target="_blank">
+                    <i class="fa-brands fa-linkedin" style="color: white;"></i>
+                </a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark row sticky-top"> <!-- added 'sticky-top' part -->
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="./images/logo.png" alt="Logo Image" width="60px"> <!-- logo Image -->
+                </a>
+
+                <button data-toggle="collapse" data-target="#tanz" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+                <div id="tanz" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item navilinks">
+                            <a href="./index.html" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item navilinks">
+                            <a href="./about.html" class="nav-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown navilinks">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownTanz">
+                                Services
+                            </a>
+                            <div class="dropdown-menu dropstyle" aria-labelledby="dropdownTanz" id="dropstyle">
+                                <a href="#" class="dropdown-item">Web Design</a>
+                                <a href="#" class="dropdown-item">Logo Design</a>
+                                <a href="#" class="dropdown-item">AI Services</a>
+                            </div>
+                        </li>
+                        <li class="nav-item navilinks linkact">
+                            <a href="#" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row" id="pageHeader">
+            <div class="col-12">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+        <div class="row" id="aboutSection">
+            <div class="col-12 sectionHeading">
+                <h1>Contact Us</h1>
+                <hr class="hrSection">
+            </div>
+            <div class="col-md-9">
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita doloribus sit quibusdam illum quia, commodi quisquam labore, suscipit assumenda illo eum maxime natus ex mollitia, a minima corrupti ratione? Ab. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quidem odio quis, voluptatibus provident dicta accusamus voluptatem sit iusto odit rerum hic deleniti beatae veritatis nisi neque sapiente consequatur commodi.</p>
+            </div>
+            <div class="col-md-3 d-none d-sm-block">
+                <img src="./images/about_us.png" alt="about Us" width="200px" style="display:block;margin:auto">
+            </div>
+        </div>
+        <!-- 105-stats section -->
+
+        <footer class="row">
+            <div class="col-md-6">
+                <div style="width: 250px;margin: auto; color:white;">
+                    <h1>Need Help?</h1>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="width: 350px;margin: auto; color:white;">
+                    <input type="email" placeholder="Email">
+                    <input type="submit" value="Submit" class="btn btn-info">
+                </div>
+            </div>
+            <div class="col-md-12" style="text-align: center; color:white;">
+                &copy; Sarah Harris
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- JS files -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="./scroll.js"></script>
+</html>

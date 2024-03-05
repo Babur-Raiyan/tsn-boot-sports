@@ -1,0 +1,114 @@
+#contact-header{
+    background-color: #007fff;
+    color: white;
+}
+#contact-header a{
+    color: white;
+}
+.navilinks:hover{
+    background-color: #007fff;
+    border-radius: 10px;
+}
+.navilinks a{
+    color: white !important;
+    padding: 5px;
+}
+.linkact{
+    background-color: #007fff;
+    border-radius: 10px;
+}
+#dropstyle {
+    background-color: #343a40;
+}
+#dropstyle a:hover{
+    background-color: black;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+#mainHeader{
+    height: 500px;
+    background-image: url(./images/bgImage.jpg);
+    background-size: auto; /* it fills in the div */
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+#pageHeader{
+    height: 200px;
+    background-image: url(./images/bgImage.jpg);
+    background-size: auto; /* it fills in the div */
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+#mainHeader h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 180px;
+}
+#mainHeader button{
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    opacity: 50%;
+    font-size: 130%;
+    margin-top: 15px;
+}
+#mainHeader button:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+}
+#pageHeader h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+#pageHeader button{
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    opacity: 50%;
+    font-size: 130%;
+    margin-top: 15px;
+}
+#pageHeader button:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+}
+#aboutSection{
+    padding-bottom: 150px;
+    background-color: #ebebeb;
+}
+.sectionHeading {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.hrSection{
+    width: 5%;
+    border: 1px solid;
+}
+#statsSection{
+    background-color: #c9c9c9;
+    height: 300px;
+}
+footer{
+    padding: 30px;
+    background-color: rgb(46, 46, 46);
+    padding-top: 55px;
+}
+.sidebar{
+    background-color: rgb(189, 189, 189);
+    padding: 10px 2px;
+}
+.article_1{
+    padding: 10px 2px;
+}
